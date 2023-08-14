@@ -1,0 +1,47 @@
+:root {
+	/* variables */
+
+	/* PRIMARY */
+	--pr_dark_cyan: hsl(158, 36%, 37%);
+	--pr_cream: hsl(30, 38%, 92%);
+
+	/* SECONDARY */
+	--snd_very_dark_blue: hsl(212, 21%, 14%);
+	--snd_dark_grayish_blue: hsl(228, 12%, 48%);
+	--snd_white: hsl(0, 0%, 100%);
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+	width: 100%;
+	height: 100%;
+}
+
+/* WEBSITE */
+
+body {
+	height: 100vh;
+	width: 100%;
+	margin: 0;
+
+	font-size: 14px;
+	font-family: "Montserrat", sans-serif;
+	/* font-family: 'Fraunces', serif; */
+}
+
+/* Atribution */
+.attribution {
+	font-size: 11px;
+	text-align: center;
+}
+
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
