@@ -70,12 +70,6 @@ img.round-corner {
 	margin: 1% 0;
 }
 
-.title h1,
-.description,
-button {
-	/* max-width: 85%; */
-}
-
 .description {
 	line-height: 1.5;
 }
@@ -100,10 +94,25 @@ button {
 button {
 	background-color: var(--pr_dark_cyan);
 	color: var(--snd_white);
-	padding: 1em 15%;
+	/* padding: 1em 15%; */
 	font-weight: bolder;
 	border: none;
 	flex-grow: 1;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: var(--snd_very_dark_blue);
+}
+
+button.round-corner > p:nth-child(2) {
+	display: inline-block;
+	color: var(--snd_white);
+}
+
+.cart {
+	content: url(/images/icon-cart.svg);
+	padding-right: 1em;
 }
 
 /* UTILITY */
