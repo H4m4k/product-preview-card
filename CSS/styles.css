@@ -147,7 +147,7 @@ button.round-corner > span:nth-child(2) {
 @media screen and (min-width: 750px) {
 	.card {
 		display: flex;
-		max-width: 600px;
+		max-width: 650px;
 		min-height: 50%;
 	}
 
