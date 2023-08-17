@@ -105,9 +105,10 @@ button:hover {
 	background-color: var(--snd_very_dark_blue);
 }
 
-button.round-corner > p:nth-child(2) {
+button.round-corner > span:nth-child(2) {
 	display: inline-block;
 	color: var(--snd_white);
+	margin: 1em 0;
 }
 
 .cart {
